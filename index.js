@@ -37,4 +37,5 @@ app.get("/payment/:id", (req, res) => {
 
 httpServer.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+  console.log(`Allowed origin: ${CLIENT_URL}`);
 });
